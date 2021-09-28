@@ -1,0 +1,1 @@
+java -jar build\libs\clase5.jar edu.it.App

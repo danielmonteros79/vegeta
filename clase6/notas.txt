@@ -1,0 +1,43 @@
+
+JDBC Interfaz pero sin motor 
+HIBERNATE ORM Object Relational Mapper
+   XML Indicativo de que objeto corresponde a que tabla
+   @Annotations
+   Reflection un mecanismo de java
+
+JCP Java comminity Process (saca standares) - JMS Estandar; Apache MQ, Rabbit MQ, 
+JPA Java Persistence API. NO SALIO EL STANDAR PRIMERO.
+     Hibernate
+     Open JPA Apache
+     Eclipse link
+     
+Spring Data JPA
+
+
+Stack de tecnologias es
+
+JDBC
+HIBERNATE
+JPA - esta en el package javax.persistence.*
+Spring Data JPA
+
+----------------------------------------------------------------------
+
+Herencia NO SE USA
+
+class A {}
+class B extends A
+
+----------------------------------------------------------------------
+
+La configuracion es:
+   Si es un proyecto en gradle ? o maven ? la configuracion se coloca
+   en src/main/resources/META-INF/persistence.xml
+
+Si fuera un proyecto en spring 
+   src/main/resources/application.properties
+                      application.yaml
+
+
+
+
