@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>edu.it</groupId>
 	<artifactId>cursojpa</artifactId>
-	<version>6</version>
+	<version>7</version>
 	<name>cursojpa</name>
 	<description>Curso de JPA Ahora en Spring</description>
 	<properties>

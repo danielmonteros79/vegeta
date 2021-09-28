@@ -1,1 +1,1 @@
-java -jar target\cursojpa-6.jar
+java -jar target\cursojpa-7.jar

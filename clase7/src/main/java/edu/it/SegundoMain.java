@@ -1,18 +1,24 @@
 package edu.it;
 
-import edu.it.ejemplos.InsertarActor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
+import edu.it.ejemplos.InsertarDatos;
+import edu.it.ejemplos.PruebaQuery;
+
 @Component
 public class SegundoMain implements CommandLineRunner {
-    private InsertarActor insertarActor;
+    private InsertarDatos insertarDatos;
 
-    public SegundoMain(InsertarActor insertarActor) {
-        this.insertarActor = insertarActor;
+    @Autowired
+    PruebaQuery pruebaQuery;
+    
+    public SegundoMain(InsertarDatos insertarDatos) {
+        this.insertarDatos = insertarDatos;
     }
 
     public void run(String... args) throws Exception {
-        insertarActor.run();
+    	pruebaQuery.run();
     }
 }
